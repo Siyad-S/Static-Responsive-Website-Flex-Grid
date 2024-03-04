@@ -1,0 +1,463 @@
+/* Display upto 1024 */
+@media screen and (max-width:1024px) {
+    .container{
+        padding: 0 30px;
+    }
+    .banner-image{
+        display: none;
+    }
+    .banner-image img{
+        display: none;
+    }
+    .header{
+        position: fixed;
+    }
+    .navbar h3{
+        position: absolute;
+        left: 60px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .options{
+        position: fixed;
+        width: 100%;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        background: white;
+        transition: all .5s;
+    }
+    .options li{
+        display: block;
+        padding: 10px 0;
+    }
+    .options li:hover{
+        background-color: #f0a5a5;
+        width: 100%;
+    }
+    .options .active-login{
+        display: block;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .login-joinus a{
+        display: none;
+    }
+    .login-joinus{
+        margin-right: 0;
+    }
+    .checkbtn i{
+        font-size: 26px;
+    }
+    .dropdown div{
+        display: none;
+        top: 27px;
+        margin: 0;
+    }
+    .dropdown div a{
+        color: white;
+    }
+    .dropdown div a:hover{
+        color: white;
+        background-color: rgb(120, 218, 218);
+    }
+    .dropdown:hover>div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        right: 0;
+        background-color: var(--primary-color);
+    }
+    
+
+
+
+
+
+    .banner-div{
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 20px;
+    }    
+    .banner-content{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-div{
+        gap: 50px;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .service-cards{
+        display: flex;
+        justify-content: center;
+    }
+    .experts-page img{
+        display: none;
+    }
+    .service-page-card {
+        width: 50%;
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        gap: 15px;
+    }
+    .experts-page{
+        padding-top: 50px;
+
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .product-page-card{
+        flex-wrap: wrap;
+    }
+    .caption{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .product-page-full-card{
+        flex-wrap: wrap;
+    }
+    .caption div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .testimonial-page{
+        padding-top: 60px;
+    }
+    .team-members-div{
+        padding-top: 60px;
+    }
+    .team-members-full-card{
+        display: grid;  
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+   
+    }
+    .team-members-card{
+        width: 90%;
+    }
+    .sub-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .para{
+        text-align: center;
+    }
+    .testimonial-page-card-content-para{
+        width: 300px;
+    }
+    .company-info{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .ending{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+
+/* Display upto 768px */
+@media screen and (max-width:768px) {
+    .navbar h3{
+        font-size: 20px;
+    }
+    .btn{
+        height: 40px;
+        font-size: 11px;
+        width: 110px;
+    }
+    .banner-content h1{
+        font-size: 40px;
+    }
+    .content h1{
+        font-size: 35px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+    .bar-div{
+        width: 85px;
+        height: 5px;
+    }
+    .learnmore a{
+        font-size: 10px;
+    }
+    .learnmore i{
+        font-size: 30px;
+    }
+    .service-page-card{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    .service-page-card-content h3{
+        font-size: 15px;
+    }
+    .service-page-card-content p{
+        font-size: 12px;
+    }
+    .service-page-card-icon div{
+        height: 60px;
+        width: 60px;
+        background-color: #1BA0AB;
+        border-radius: 6px;
+    }
+    .card-bar-div{
+        width: 40px;
+        margin-top: 15px;
+     }
+     .page-beginning-text{
+        font-size: 10px;
+    }
+    .caption h1{
+        font-size: 35px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .para{
+        font-size: 12px;
+        text-align: center;
+
+    }
+    .product-page-full-card{
+        gap: 20px;
+        padding-top: 40px;
+    }
+    .product-page-card{
+        display: grid;
+        gap: 15px;
+    }
+    .product-page-card-image {
+        height: 300px;
+    }
+    .product-page-card-image img{
+        height: 300px;
+    }
+    .icons button{
+        width: 35px;
+        height: 35px;
+    }
+    .sale{
+        font-size: 10px;
+        padding: 2px;
+        border-radius: 2px;
+    }
+    .product-page-card-content h3{
+        font-size: 15px;
+    }
+    .btn-star-rating {
+        height: 22px;
+        width: 45px;
+    }
+    .btn-star-rating p{
+        font-size: 10px;
+    }
+    .btn-star-rating i{
+        width: 14px;
+        height: 14px;
+    }
+    .product-page-card-para {
+        font-size: 12px;
+        color: #737373;
+        margin-top: 15px;
+    }
+    .sales p {
+        font-size: 12px;
+    }
+    .sales i {
+        font-size: 22px;
+    }
+    .money-grey {
+        font-size: 12px;
+    }
+    .money-gold {
+        font-size: 12px;
+    }
+    .icon-text{
+        font-size: 11px;
+    }
+    .card-button {
+        font-size: 10px;
+      }
+      .card-button {
+        border-radius: 22px;
+        height: 37px;
+        width: 105px;
+        font-size: 10px;
+        margin-top: 17px;
+    }
+    .testimonial-page {
+        padding-top: 60px;
+    }
+    .testimonial-page-card-full-div {
+        padding-top: 20px;
+    }
+    .testimonial-page-card-content-para {
+        font-size: 12px;
+        width: 150px;
+    }
+    .star {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .name h5 {
+        font-size: 14px;
+    }
+    .name p {
+        font-size: 11px;
+        margin-top: 8px;
+    }
+    .team-members-div {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .team-members-full-card{
+        padding-top: 30px;
+    }
+    .team-members-card-content h5 {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .team-members-card-content p {
+        font-size: 9px;
+        margin-top: 10px;
+    }
+    .social-media {
+        margin-top: 10px;
+        gap: 15px;
+    }
+    .social-media i{
+        font-size: 15px;
+    }
+    .sub-page{
+        padding-top: 30px;
+    }
+    .sub-page h1{
+        font-size: 35px;
+    }
+    .btn-subscribe {
+        padding: 0px 10px;
+        font-size: 10px;
+    }
+    .email-submission {
+        padding: 8px 10px;
+        width: 215px;
+    }
+    .email-submission::placeholder {
+        font-size: 10px;
+    }
+    .input-subscribe{
+        padding-bottom: 30px;
+    }
+    .company-info{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-top: 15px;
+        gap: 40px;
+    }
+    .full-footer-card h5{
+        font-size: 11px;
+    }
+    .full-footer-card a{
+        font-size: 10px;
+    }
+    .footer-cards i{
+        font-size: 10px;
+    }
+    .ending p{
+        font-size: 10px;
+    }
+    .ending{
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+    .ending div{
+        gap: 15px;
+    }
+    .ending i{
+        font-size: 14px;
+    }
+
+}
+
+/* Display upto 420px */
+@media screen and (max-width : 420px) {
+    .navbar h3 {
+        font-size: 15px;
+    }
+    .banner-content h1 {
+        font-size: 30px;
+    }
+    .content-text {
+        font-size: 11px;
+    }
+    .btn{
+        font-size: 10px;
+        height: 35px;
+        width: 100px;
+    }
+    .content h1 {
+        font-size: 25px;
+    }
+    .bar-div {
+        width: 63px;
+        height: 4px;
+    }
+    .service-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-page-card{
+        width: 245px;
+        height: 100px;
+        display: grid;
+    }
+    .caption h1 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .element {
+        display: grid;
+        place-items: center;
+    }
+
+    .product-page-card{
+        gap: 15px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .testimonial-page-card {
+        margin-bottom: 15px;
+    }
+    .testimonial-page-card-full-div {
+        display: grid;
+        place-items: center;
+      }
+    .company-info {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .email-submission {
+        width: 215px;
+    }
+    .email-submission::placeholder {
+        font-size: 8px;
+    }
+}
